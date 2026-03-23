@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Turkmenistan</title>
+    <!-- Подключаем шрифты Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Подключаем стили (пока пустые) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="logo">VISIT TURKMENISTAN</div>
+        <ul class="nav-links">
+            <li><a href="index.html" data-lang="home">Главная</a></li>
+            <li><a href="regions.html" data-lang="regions">Регионы</a></li>
+            <li><a href="route.html" data-lang="routes">Маршруты</a></li>
+            <li><a href="logistics.html" data-lang="logistics">Логистика</a></li>
+        </ul>
+        <div class="lang-switch">
+            <span id="lang-ru" class="active">RU</span> | <span id="lang-en">EN</span>
+        </div>
+    </nav>
+
+    <!-- Главный экран -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 data-lang="hero_title">Сердце Великого Шелкового Пути</h1>
+            <p data-lang="hero_subtitle">Открой для себя страну белого мрамора и древних легенд</p>
+            <a href="regions.html" class="btn-main" data-lang="btn_explore">Исследовать</a>
+        </div>
+    </header>
+
+      <!-- Слайдер (5 фото красивых мест) -->
+<section class="slider-section">
+    <h2 data-lang="gallery_title">Галерея чудес</h2>
+    <div class="slider-container">
+        <div class="slide active">
+            <img src="img/slide1.jpg" alt="Ashgabat">
+            <div class="slide-caption">Ашхабад - Город Белого Мрамора</div>
+        </div>
+        <div class="slide">
+            <img src="img/slide2.jpg" alt="Darvaza">
+            <div class="slide-caption">Дарваза - Врата Ада</div>
+        </div>
+        <div class="slide">
+            <img src="img/slide3.jpg" alt="Kugitang">
+            <div class="slide-caption">Кугитанг - Следы Динозавров</div>
+        </div>
+        <div class="slide">
+            <img src="img/slide4.jpg" alt="Avaza">
+            <div class="slide-caption">Аваза - Каспийское Море</div>
+        </div>
+        <div class="slide">
+            <img src="img/slide5.jpg" alt="Merv">
+            <div class="slide-caption">Древний Мерв - UNESCO</div>
+        </div>
+    </div>
+    <div class="slider-controls">
+        <button id="prevBtn">&#10094;</button>
+        <button id="nextBtn">&#10095;</button>
+    </div>
+</section>
+
+    <footer>
+    <div class="footer-content">
+        <div class="footer-main">
+            <p>&copy; 2026 Visit Turkmenistan. Student Project.</p>
+        </div>
+        
+        <div class="developer-info">
+            <div class="dev-divider">✦ ✦ ✦</div>
+            <h4>Разработчик сайта</h4>
+            <div class="dev-name">👨‍ Tadashi Hamada</div>
+            <div class="dev-contacts">
+                <a href="tel:+79275150166" class="dev-contact-item">
+                    <span class="icon">📞</span> +7 927 515-01-66
+                </a>
+                <a href="https://t.me/Player0101001" target="_blank" class="dev-contact-item">
+                    <span class="icon">✈️</span> @Player0101001
+                </a>
+                <a href="https://vk.com/id1089627010" target="_blank" class="dev-contact-item">
+                    <span class="icon">📘</span> VK: id1089627010
+                </a>
+            </div>
+            <p class="dev-note">🎓 Учебный проект для университета</p>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

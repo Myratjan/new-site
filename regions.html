@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регионы - Visit Turkmenistan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">VISIT TURKMENISTAN</div>
+        <ul class="nav-links">
+            <li><a href="index.html" data-lang="home">Главная</a></li>
+            <li><a href="regions.html" data-lang="regions">Регионы</a></li>
+            <li><a href="route.html" data-lang="routes">Маршруты</a></li>
+            <li><a href="logistics.html" data-lang="logistics">Логистика</a></li>
+        </ul>
+        <div class="lang-switch">
+            <span id="lang-ru" class="active">RU</span> | <span id="lang-en">EN</span>
+        </div>
+    </nav>
+
+    <section class="content-section">
+        <h2 data-lang="regions_title">Популярные Регионы</h2>
+        
+      
+        <!-- Замени блок regions-grid на: -->
+<div class="regions-grid">
+    <!-- Ашхабад -->
+    <div class="region-card">
+        <img src="img/ashgabat.jpg" alt="Ashgabat">
+        <h3>Ашхабад</h3>
+        <p data-lang="ashgabat_desc">Столица белого мрамора. Монументы, фонтаны и современная архитектура.</p>
+        <div class="photo-spots">
+            <span>📸 Площадь Независимости</span>
+            <span>📸 Парк Ашхабад</span>
+        </div>
+    </div>
+    <!-- Лебап -->
+    <div class="region-card">
+        <img src="img/lebap.jpg" alt="Lebap">
+        <h3>Лебап (Кугитанг)</h3>
+        <p data-lang="lebap_desc">Следы динозавров и уникальная природа горного плато.</p>
+        <div class="photo-spots">
+            <span>📸 Плато Динозавров</span>
+            <span>📸 Пещера Гаурдак</span>
+        </div>
+    </div>
+    <!-- Балкан -->
+    <div class="region-card">
+        <img src="img/balkan.jpg" alt="Balkan">
+        <h3>Балкан (Дарваза)</h3>
+        <p data-lang="balkan_desc">Газовый кратер "Врата Ада" и побережье Каспийского моря.</p>
+        <div class="photo-spots">
+            <span>📸 Кратер Дарваза</span>
+            <span>📸 Пляж Аваза</span>
+        </div>
+    </div>
+</div>
+
+
+        <!-- Интерактивная карта (iframe Google Maps) -->
+        <div class="map-container">
+            <h3 data-lang="map_title">Карта страны</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3056623.684232!2d56.5!3d39.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f34b5b5b5b5b5b5%3A0x5b5b5b5b5b5b5b5b!2sTurkmenistan!5e0!3m2!1sru!2s!4v1600000000000" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <footer>
+    <div class="footer-content">
+        <div class="footer-main">
+            <p>&copy; 2026 Visit Turkmenistan. Student Project.</p>
+        </div>
+        
+        <div class="developer-info">
+            <div class="dev-divider">✦ ✦ ✦</div>
+            <h4>Разработчик сайта</h4>
+            <div class="dev-name">👨‍ Tadashi Hamada</div>
+            <div class="dev-contacts">
+                <a href="tel:+79275150166" class="dev-contact-item">
+                    <span class="icon">📞</span> +7 927 515-01-66
+                </a>
+                <a href="https://t.me/Player0101001" target="_blank" class="dev-contact-item">
+                    <span class="icon">✈️</span> @Player0101001
+                </a>
+                <a href="https://vk.com/id1089627010" target="_blank" class="dev-contact-item">
+                    <span class="icon">📘</span> VK: id1089627010
+                </a>
+            </div>
+            <p class="dev-note">🎓 Учебный проект для университета</p>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Логистика - Visit Turkmenistan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">VISIT TURKMENISTAN</div>
+        <ul class="nav-links">
+            <li><a href="index.html" data-lang="home">Главная</a></li>
+            <li><a href="regions.html" data-lang="regions">Регионы</a></li>
+            <li><a href="route.html" data-lang="routes">Маршруты</a></li>
+            <li><a href="logistics.html" data-lang="logistics">Логистика</a></li>
+        </ul>
+        <div class="lang-switch">
+            <span id="lang-ru" class="active">RU</span> | <span id="lang-en">EN</span>
+        </div>
+    </nav>
+
+    <section class="content-section">
+        <h2 data-lang="logistics_title">Планирование поездки</h2>
+
+        <!-- Калькулятор -->
+        <div class="calculator-box">
+            <h3 data-lang="calc_title">Калькулятор расходов</h3>
+            <label data-lang="calc_days">Количество дней:</label>
+            <input type="number" id="days" value="5" min="1">
+            
+            <label data-lang="calc_hotel">Класс отеля (цена за ночь $):</label>
+            <select id="hotel">
+                <option value="50">Бюджет (50$)</option>
+                <option value="100">Средний (100$)</option>
+                <option value="250">Люкс (250$)</option>
+            </select>
+
+            <button id="calc-btn" class="btn-main" data-lang="calc_btn">Рассчитать</button>
+            <div id="calc-result" class="result-box"></div>
+            <p class="disclaimer" data-lang="calc_disclaimer">*Это приблизительный расчет без учета авиабилетов.</p>
+        </div>
+
+        <!-- Полезные ссылки -->
+        <div class="links-box">
+            <h3 data-lang="links_title">Полезные ресурсы</h3>
+            <ul class="useful-links">
+                <li><a href="https://www.mfa.gov.tm/" target="_blank">МИД Туркменистан (Визы)</a></li>
+                <li><a href="https://www.turkmenistanairlines.com/" target="_blank">Turkmenistan Airlines</a></li>
+                <li><a href="https://www.cbt.tm/" target="_blank">Центральный Банк (Курс валют)</a></li>
+                <li><a href="https://www.tripadvisor.ru/" target="_blank">Отзывы туристов</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+    <div class="footer-content">
+        <div class="footer-main">
+            <p>&copy; 2026 Visit Turkmenistan. Student Project.</p>
+        </div>
+        
+        <div class="developer-info">
+            <div class="dev-divider">✦ ✦ ✦</div>
+            <h4>Разработчик сайта</h4>
+            <div class="dev-name">👨‍ Tadashi Hamada</div>
+            <div class="dev-contacts">
+                <a href="tel:+79275150166" class="dev-contact-item">
+                    <span class="icon">📞</span> +7 927 515-01-66
+                </a>
+                <a href="https://t.me/Player0101001" target="_blank" class="dev-contact-item">
+                    <span class="icon">✈️</span> @Player0101001
+                </a>
+                <a href="https://vk.com/id1089627010" target="_blank" class="dev-contact-item">
+                    <span class="icon">📘</span> VK: id1089627010
+                </a>
+            </div>
+            <p class="dev-note">🎓 Учебный проект для университета</p>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
