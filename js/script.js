@@ -3,6 +3,18 @@
    ========================================= */
 const translations = {
     ru: {
+        // ... существующие переводы ...
+        dashoguz_desc: "Древний город на Шёлковом пути с богатой историей и архитектурными памятниками.",
+        mary_desc: "Один из крупнейших городов древнего мира и важный центр на Шёлковом пути.",
+        // ... остальные переводы ...
+    },
+    en: {
+        // ... existing translations ...
+        dashoguz_desc: "Ancient city on the Silk Road with rich history and architectural monuments.",
+        mary_desc: "One of the largest cities of the ancient world and an important center on the Silk Road.",
+        // ... other translations ...
+    }
+    ru: {
         home: "Главная",
         regions: "Регионы",
         routes: "Маршруты",
