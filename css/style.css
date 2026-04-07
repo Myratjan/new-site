@@ -896,3 +896,59 @@ footer {
         padding: 30px 5% 20px;
     }
 }
+/* =========================================
+   17. СТИЛИ ДЛЯ НОВЫХ КАРТОЧЕК РЕГИОНОВ
+   ========================================= */
+.region-features {
+    padding: 0 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.feature {
+    background: rgba(212, 175, 55, 0.15);
+    color: var(--gold);
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    transition: all 0.3s ease;
+}
+
+.feature:hover {
+    background: rgba(212, 175, 55, 0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 3px 10px rgba(212, 175, 55, 0.3);
+}
+
+/* Адаптация сетки для 5 карточек */
+.regions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+/* Для больших экранов — 3 колонки */
+@media (min-width: 1200px) {
+    .regions-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Для средних экранов — 2 колонки */
+@media (max-width: 900px) {
+    .regions-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Для мобильных — 1 колонка */
+@media (max-width: 600px) {
+    .regions-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
